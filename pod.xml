@@ -6,3 +6,5 @@ spec:
  containers:
  - image: busybox
    name: container
+ volumesMount:
+   path: /data
