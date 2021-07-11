@@ -6,4 +6,7 @@ spec:
  containers:
  - image: busybox
    name: container
+   ports:
+     - name: bus
+       containerPort: 8080
 
